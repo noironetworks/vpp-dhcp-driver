@@ -15,7 +15,7 @@ import setuptools
 
 
 setuptools.setup(
-    name="aci-vpplib",
+    name="vpp-dhcp-driver",
     version="1.0.0",
     packages=setuptools.find_packages(),
     author="Cisco Systems, Inc.",
