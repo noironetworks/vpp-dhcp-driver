@@ -1,5 +1,5 @@
-aci-vpplib (@VERSION@-@REVISION@) trusty; urgency=low
+vpp-dhcp-driver (@VERSION@-@REVISION@) trusty; urgency=low
 
   * [Placeholder]
 
- -- Kiran Shastri <kishastr@cisco.com>  Mon, 09 Sep 2019 22:53:44 +0000
+ -- Kiran Shastri <kishastr@cisco.com>  Tue, 10 Sep 2019 22:53:44 +0000

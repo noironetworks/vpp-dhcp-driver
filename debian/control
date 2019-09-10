@@ -1,15 +1,15 @@
-Source: aci-vpplib
+Source: vpp-dhcp-driver
 Section: python
 Priority: optional
-Maintainer: Cisco Systems, Inc. <aci-vpplib@noironetworks.com>
+Maintainer: Cisco Systems, Inc. <vpp-dhcp-driver@noironetworks.com>
 Build-Depends: debhelper (>= 9), python-setuptools (>= 3.3), python-all (>= 2.7)
 Standards-Version: 3.9.5
-Homepage: http://github.com/noironetworks/aci-vpplib/
-Vcs-Git: git://github.com/noironetworks/aci-vpplib.git
-Vcs-Browser: http://github.com/noironetworks/aci-vpplib/
+Homepage: http://github.com/noironetworks/vpp-dhcp-driver/
+Vcs-Git: git://github.com/noironetworks/vpp-dhcp-driver.git
+Vcs-Browser: http://github.com/noironetworks/vpp-dhcp-driver/
 
-Package: python-aci-vpplib
+Package: python-vpp-dhcp-driver
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}
-Description: Python library for wrapping VPP libraries
- Library that is a wrapper for VPP C libraries
+Description: Python library for VPP DHCP driver
+ Library that contains a DHCP interface driver for VPP dataplanes

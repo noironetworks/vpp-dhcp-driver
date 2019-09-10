@@ -1,7 +1,7 @@
 Name:		vpp-dhcp-driver
 Version:	@VERSION@
 Release:	@RELEASE@%{?dist}
-Summary:	Python patch to Nova API
+Summary:	Python DHCP interface driver for VPP
 License:	ASL 2.0
 URL:		http://github.com/noironetworks/vpp-dhcp-driver
 Source:		vpp-dhcp-driver-%{version}.tar.gz
@@ -11,7 +11,7 @@ BuildRequires:	python-pbr
 BuildRequires:	python-setuptools
 
 %description
-Python library for wrapping Vector Packet Processing (VPP) C library
+Python library for DHCP interface driver for VPP
 
 %prep
 %setup -qn vpp-dhcp-driver-%{version}
